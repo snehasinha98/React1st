@@ -9,7 +9,7 @@ import { InputText } from "primereact/inputtext";
 import { Card } from "primereact/card";
 import primeflex from "/node_modules/primeflex/primeflex.css";
 
-function App() {
+export function App() {
   const arr_names = ["Sneha", "Ashutosh", "Harsh", "Punita"];
 
   let a = arr_names.map((item) => {
@@ -115,4 +115,8 @@ function App() {
   );
 }
 
-export default App;
+export function Sneha() {
+  return <h2> Hello There</h2>;
+}
+
+// export default App;
